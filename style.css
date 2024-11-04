@@ -1,0 +1,59 @@
+@font-face {
+    font-family: "patolino";
+    src: url(./assets/fonts/Halo\ Dek.otf);
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+
+}
+
+h1 {
+    font-size: 3.2rem;
+    font-family: "patolino";
+    color: blueviolet;
+    text-shadow:  .2rem .2rem .2rem coral;
+    
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: linear-gradient(to top, black, orange 25% );
+
+}
+
+.conteudo {
+    box-shadow: .2rem .2rem .3rem black;
+    padding: 4rem;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: aliceblue;
+}
+
+/* .perfil {
+    height: 15rem;
+    margin: 2rem;
+} */
+
+/* .redes-sociais {
+    display: flex;
+    justify-content: space-between;
+} */
+
+.foto1{
+    display: flex;
+    width: 25rem;
+    
+}

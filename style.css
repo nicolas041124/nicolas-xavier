@@ -33,6 +33,9 @@ body {
 }
 
 .conteudo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     box-shadow: .2rem .2rem .3rem black;
     padding: 4rem;
     border-radius: 2rem;
@@ -54,6 +57,6 @@ body {
 
 .foto1{
     display: flex;
-    width: 25rem;
+    width: 40rem;
     
 }
